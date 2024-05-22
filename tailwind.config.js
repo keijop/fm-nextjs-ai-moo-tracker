@@ -5,14 +5,19 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'selector',
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'custom-black': '#27232c',
+        'custom-green-1': '#bee0d6',
+        'custom-green-2': '#71EAC6',
+        'custom-green-3': '#254b45',
+        'custom-green-4': '#acffe6',
+        'custom-red-1': '#d32f2f',
+        'custom-red-2': '#e53935',
       },
     },
   },
   plugins: [],
-}
+};
